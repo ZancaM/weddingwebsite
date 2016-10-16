@@ -1074,7 +1074,10 @@ input[type="radio"] {
   .work-container h4 {
     margin-left: 60px; } }
 .section-clients {
-  position: relative; }
+  position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .clients-belt {
   width: 100%;
@@ -1480,3 +1483,9 @@ form input, form textarea, form select {
   text-align: center; }
   .form-success p {
     font-size: 18px; }
+
+.clients-section {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
